@@ -4,7 +4,9 @@
   "description": "Just for testing new component",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "component/jquery": "1.9.1"
+  },
   "development": {},
   "license": "MIT",
   "scripts": [
