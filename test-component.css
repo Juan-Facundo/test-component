@@ -2,20 +2,23 @@ p {
   padding: 10px;
   margin: 0px auto;
   display: inline-block;
-  background-color: rgba(0,0,0,0.4);
-  text-shadow: -2px 2px white;
   font-size: 20px;
+  width: 150px;
 }
 
 body {
   text-align: center;
 }
-div#placeholder:hover div.ask {
-  display: block;
+
+p#name {
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  text-shadow: -2px 2px black;
 }
 
-div#placeholder div.ask {
-  display: none;
-  position: absolute;
-  bottom: -30px;
+p#apellido {
+  background-color: rgba(0,0,0,0.3);
+  color: black;
+  text-shadow: -2px 2px white;
 }
+
