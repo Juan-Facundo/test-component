@@ -1,8 +1,11 @@
 
-build: components index.js test-component.css template.js
+build: components index.js test-component.css lastnametemplate.js nametemplate.js
 	@component build --dev
 
-template.js: template.html
+nametemplate.js: nametemplate.html
+	@component convert $<
+
+lastnametemplate.js: lastnametemplate.html
 	@component convert $<
 
 components: component.json

@@ -1,0 +1,18 @@
+p {
+  padding: 10px;
+  margin: 0px auto;
+  display: inline-block;
+}
+
+body {
+  text-align: center;
+}
+div#placeholder:hover div.ask {
+  display: block;
+}
+
+div#placeholder div.ask {
+  display: none;
+  position: absolute;
+  bottom: -30px;
+}

@@ -9,7 +9,8 @@
   "license": "MIT",
   "scripts": [
     "index.js",
-    "template.js"
+    "nametemplate.js",
+    "lastnametemplate.js"
   ],
   "styles": [
     "test-component.css"
